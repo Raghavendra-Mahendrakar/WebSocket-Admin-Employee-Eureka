@@ -1,0 +1,75 @@
+2023-02-23 11:44:19.290  INFO 9072 --- [restartedMain] com.pws.employee.EmployeeApplication     : Starting EmployeeApplication using Java 19.0.2 on DESKTOP-CCRJIGP with PID 9072 (C:\Users\LENOVO\Downloads\Admin-Employee-Websocket-ChatBox-main\Admin-Employee-Websocket-ChatBox-main\Employee-Service-JWT\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\Admin-Employee-Websocket-ChatBox-main\Admin-Employee-Websocket-ChatBox-main\Employee-Service-JWT)
+2023-02-23 11:44:19.296  INFO 9072 --- [restartedMain] com.pws.employee.EmployeeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-02-23 11:44:19.461  INFO 9072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 11:44:19.462  INFO 9072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 11:44:21.208  INFO 9072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23 11:44:21.520  INFO 9072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 294 ms. Found 7 JPA repository interfaces.
+2023-02-23 11:44:21.964  INFO 9072 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=22156f82-89c3-3c28-888f-f0542129b2b6
+2023-02-23 11:44:22.251  INFO 9072 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:44:22.253  INFO 9072 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:44:22.255  INFO 9072 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:44:22.997  INFO 9072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-02-23 11:44:23.010  INFO 9072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-23 11:44:23.011  INFO 9072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-02-23 11:44:23.246  INFO 9072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-23 11:44:23.246  INFO 9072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3783 ms
+2023-02-23 11:44:23.572  INFO 9072 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23 11:44:23.661  INFO 9072 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-02-23 11:44:23.940  INFO 9072 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23 11:44:24.097  INFO 9072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-23 11:44:24.597  INFO 9072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-23 11:44:24.631  INFO 9072 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-23 11:44:26.542  INFO 9072 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23 11:44:26.561  INFO 9072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23 11:44:27.605  WARN 9072 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-23 11:44:28.334  WARN 9072 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/api/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 11:44:28.336  INFO 9072 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/api/**']
+2023-02-23 11:44:28.337  WARN 9072 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 11:44:28.338  INFO 9072 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**', OPTIONS]
+2023-02-23 11:44:28.338  WARN 9072 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**/*.{js,html,css}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 11:44:28.339  INFO 9072 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**/*.{js,html,css}']
+2023-02-23 11:44:28.402  INFO 9072 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7700edb1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62b63d1a, org.springframework.security.web.context.SecurityContextPersistenceFilter@28675395, org.springframework.security.web.header.HeaderWriterFilter@5d3301f3, org.springframework.security.web.authentication.logout.LogoutFilter@5140719a, com.pws.employee.security.jwt.config.JwtFilter@409fdd93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68a0e874, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f2f06b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49ed2208, org.springframework.security.web.session.SessionManagementFilter@3ed5f723, org.springframework.security.web.access.ExceptionTranslationFilter@14e45530, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61f8e7a7]
+2023-02-23 11:44:28.501  WARN 9072 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2023-02-23 11:44:28.502  INFO 9072 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-23 11:44:28.516  WARN 9072 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2023-02-23 11:44:28.516  INFO 9072 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-23 11:44:28.975  INFO 9072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-02-23 11:44:30.709  INFO 9072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-23 11:44:30.860  INFO 9072 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-23 11:44:31.202  WARN 9072 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-23 11:44:31.239  INFO 9072 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-23 11:44:31.431  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-02-23 11:44:31.439  INFO 9072 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 11:44:31.475  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-23 11:44:31.475  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-23 11:44:31.475  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-23 11:44:31.476  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-23 11:44:31.476  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-23 11:44:31.476  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-02-23 11:44:31.476  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-23 11:44:32.137  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-23 11:44:32.139  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-02-23 11:44:32.143  INFO 9072 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-23 11:44:32.151  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1677132872149 with initial instances count: 0
+2023-02-23 11:44:32.157  INFO 9072 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVICE with eureka with status UP
+2023-02-23 11:44:32.158  INFO 9072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677132872158, current=UP, previous=STARTING]
+2023-02-23 11:44:32.160  INFO 9072 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/DESKTOP-CCRJIGP:employee-service:8083: registering service...
+2023-02-23 11:44:32.207  INFO 9072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2023-02-23 11:44:32.208  INFO 9072 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2023-02-23 11:44:32.383  INFO 9072 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/DESKTOP-CCRJIGP:employee-service:8083 - registration status: 204
+2023-02-23 11:44:32.423  INFO 9072 --- [restartedMain] com.pws.employee.EmployeeApplication     : Started EmployeeApplication in 14.12 seconds (JVM running for 19.182)
+2023-02-23 11:45:02.147  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-23 11:45:02.148  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-23 11:45:02.149  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-23 11:45:02.149  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-23 11:45:02.149  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-23 11:45:02.150  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-02-23 11:45:02.150  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-23 11:45:02.182  INFO 9072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-23 11:46:34.236  INFO 9072 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 11:46:34.236  INFO 9072 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-23 11:46:34.239  INFO 9072 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-02-23 11:49:31.491  INFO 9072 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 11:54:31.500  INFO 9072 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 11:59:31.506  INFO 9072 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 12:04:31.513  INFO 9072 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
